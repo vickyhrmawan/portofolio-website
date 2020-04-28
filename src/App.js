@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import { Button, Layout, Menu, Row, Col, Space } from "antd";
+import { Button, Layout, Menu, Row, Space } from "antd";
 import "antd/dist/antd.css";
 import "./index.css";
 import Title from "antd/lib/typography/Title";
@@ -18,7 +18,7 @@ import Portfolio from "./pages/Portfolio";
 
 // https://youtu.be/QGMi1DgFd_A
 
-const { Header, Footer, Content, Sider } = Layout;
+const { Header, Content } = Layout;
 
 export default function App() {
   return ReactDOM.render(
@@ -81,6 +81,7 @@ function Home() {
               borderRadius: 10,
               margin: "1%"
             }}
+            alt="vickyh"
           />
           <Layout>
             <Title

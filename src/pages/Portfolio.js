@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import { Button, Layout, Menu, Row, Col, Space } from "antd";
+import { Layout } from "antd";
 import "antd/dist/antd.css";
 import Title from "antd/lib/typography/Title";
 
@@ -27,6 +27,7 @@ export default function Portfolio() {
               borderRadius: 10,
               margin: "2%"
             }}
+            alt="imdbapp"
           />
           <img
             src={require("../img/ss2.png")}
@@ -35,6 +36,7 @@ export default function Portfolio() {
               borderRadius: 10,
               margin: "2%"
             }}
+            alt="ayovest"
           />
         </div>
         <Title
@@ -57,6 +59,7 @@ export default function Portfolio() {
                 margin: "1%",
                 alignSelf: "center"
               }}
+              alt="gitlab"
             />
           </a>
         </div>

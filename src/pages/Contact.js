@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Layout, Menu, Row, Col, Space } from "antd";
+import { Layout } from "antd";
 import "antd/dist/antd.css";
 
 export default function Contact() {
