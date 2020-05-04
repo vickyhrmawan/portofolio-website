@@ -5,10 +5,10 @@ import Title from "antd/lib/typography/Title";
 export default function Experience() {
   return (
     <Layout>
-      <Title style={{ textAlign: "center", marginTop: "5%" }}>
+      <Title style={{ textAlign: "center", marginTop: "5%" }} level={2}>
         My Experience
       </Title>
-      <div style={{ padding: "50px 100px" }}>
+      <div style={{ padding: "5%" }}>
         <Row>
           <Col flex="100px">
             <img
@@ -17,12 +17,15 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%"
+                margin: "5%"
               }}
             />
           </Col>
           <Col flex={3} style={{ padding: "5%" }}>
             <Title level={3}>PT. Yakin Maju Sentosa</Title>
+            <a href="https://www.yakinmaju.com/en">
+              <p>https://www.yakinmaju.com/en</p>
+            </a>
             <p>Sales Representative</p>
             <p>
               Maintaining relationship with customer, Achieve sales target,
@@ -44,6 +47,9 @@ export default function Experience() {
           </Col>
           <Col flex={3} style={{ padding: "5%" }}>
             <Title level={3}>Citibank NA</Title>
+            <a href="https://www.citibank.co.id/">
+              <p>https://www.citibank.co.id/</p>
+            </a>
             <p>Universal Banker</p>
             <p>
               Explaining product knowledge to customer, Making proposal to
@@ -65,6 +71,9 @@ export default function Experience() {
           </Col>
           <Col flex={3} style={{ padding: "5%" }}>
             <Title level={3}>PT. Coolpad Electronic Indonesia</Title>
+            <a href="https://coolpad.us/">
+              <p>https://coolpad.us/</p>
+            </a>
             <p>HR Staff</p>
             <p>
               Managing recruitment, payroll, contracts and general affair stuff.
@@ -85,6 +94,9 @@ export default function Experience() {
           </Col>
           <Col flex={3} style={{ padding: "5%" }}>
             <Title level={3}>PT. Sanbe Farma</Title>
+            <a href="https://www.sanbe-farma.com/">
+              <p>https://www.sanbe-farma.com/</p>
+            </a>
             <p>Medical Representative</p>
             <p>
               Maintaining relationship with customer, Achieve sales target, Fill

@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 import Title from "antd/lib/typography/Title";
 
 //https://www.youtube.com/watch?v=ApnbTMhP-r8
+//
 
 export default function Portfolio() {
   return (
@@ -16,6 +17,7 @@ export default function Portfolio() {
             textAlign: "center",
             marginTop: "2%"
           }}
+          level={3}
         >
           A glimpse of my project
         </Title>
@@ -23,7 +25,7 @@ export default function Portfolio() {
           <img
             src={require("../img/ss1.png")}
             style={{
-              width: "10%",
+              width: "20%",
               borderRadius: 10,
               margin: "2%"
             }}
@@ -32,21 +34,27 @@ export default function Portfolio() {
           <img
             src={require("../img/ss2.png")}
             style={{
-              width: "10%",
+              width: "20%",
               borderRadius: 10,
               margin: "2%"
             }}
             alt="ayovest"
           />
         </div>
+        <a href="https://www.mediafire.com/file/j1urnjdg4ck9x37/ayovest.apk/file">
+          <p style={{ textAlign: "center", fontWeight: "bold" }}>
+            Download Ayovest APK
+          </p>
+        </a>
         <Title
           style={{
             fontFamily: "poppins",
             textAlign: "center",
             marginTop: "2%"
           }}
+          level={3}
         >
-          Find my latest project here!
+          Find my latest project!
         </Title>
 
         <div style={{ textAlign: "center" }}>
@@ -54,7 +62,7 @@ export default function Portfolio() {
             <img
               src={require("../img/gitlablogo.png")}
               style={{
-                width: "20%",
+                width: "40%",
                 borderRadius: 10,
                 margin: "1%",
                 alignSelf: "center"
@@ -69,6 +77,7 @@ export default function Portfolio() {
             textAlign: "center",
             marginTop: "5%"
           }}
+          level={3}
         >
           My latest team
         </Title>

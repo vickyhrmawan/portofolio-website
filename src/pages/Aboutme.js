@@ -42,7 +42,8 @@ export default function Aboutme() {
               fontFamily: "poppins",
               fontWeight: "bold",
               paddingLeft: "10%",
-              paddingRight: "10%"
+              paddingRight: "10%",
+              textAlign: "center"
             }}
           >
             For the first time, I thought I wanna create something. That's why I
