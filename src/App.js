@@ -15,7 +15,7 @@ import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 
-const { Header, Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 export default function App() {
   const aboutmeScroll = createRef();
@@ -120,7 +120,7 @@ export default function App() {
                       style={{
                         backgroundColor: "black",
                         borderColor: "black",
-                        width: "120%",
+                        width: "120px",
                         fontFamily: "poppins"
                       }}
                       onClick={experienceSmoothHandler}
@@ -132,7 +132,7 @@ export default function App() {
                       style={{
                         backgroundColor: "black",
                         borderColor: "black",
-                        width: "120%",
+                        width: "120px",
                         fontFamily: "poppins"
                       }}
                       onClick={portfolioSmoothHandler}
@@ -148,10 +148,10 @@ export default function App() {
             <Aboutme />
           </div>
 
-          <Layout style={{ padding: "30px" }}>
-            <Row type="flex" justify="center">
-              <Title level={2}>My Latest Project</Title>
-            </Row>
+          <Layout>
+            <Title style={{ textAlign: "center", marginTop: "5%" }} level={3}>
+              My Latest Project
+            </Title>
             <div
               style={{
                 position: "relative",
@@ -214,6 +214,15 @@ export default function App() {
             <div ref={contactmeScroll}>
               <Contact />
             </div>
+            <Footer
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                backgroundColor: "white"
+              }}
+            >
+              This website was made using React.JS
+            </Footer>
           </Layout>
         </div>
       </div>
