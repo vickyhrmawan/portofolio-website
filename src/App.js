@@ -6,8 +6,8 @@ import Title from "antd/lib/typography/Title";
 import { BrowserRouter as Router } from "react-router-dom";
 import {
   LinkedinOutlined,
-  GitlabOutlined,
-  InstagramOutlined
+  GithubOutlined,
+  InstagramOutlined,
 } from "@ant-design/icons";
 import ReactPlayer from "react-player";
 import Aboutme from "./pages/Aboutme";
@@ -20,28 +20,28 @@ const { Header, Content, Footer } = Layout;
 export default function App() {
   const aboutmeScroll = createRef();
 
-  const aboutmeSmoothHandler = e => {
+  const aboutmeSmoothHandler = (e) => {
     console.log(e);
     aboutmeScroll.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const contactmeScroll = createRef();
 
-  const contactmeSmoothHandler = e => {
+  const contactmeSmoothHandler = (e) => {
     console.log(e);
     contactmeScroll.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const experienceScroll = createRef();
 
-  const experienceSmoothHandler = e => {
+  const experienceSmoothHandler = (e) => {
     console.log(e);
     experienceScroll.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const portfolioScroll = createRef();
 
-  const portfolioSmoothHandler = e => {
+  const portfolioSmoothHandler = (e) => {
     console.log(e);
     portfolioScroll.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -75,7 +75,7 @@ export default function App() {
                 style={{
                   width: "25%",
                   borderRadius: 10,
-                  margin: "5%"
+                  margin: "5%",
                 }}
                 alt="vickyh"
               />
@@ -84,7 +84,7 @@ export default function App() {
                   style={{
                     textAlign: "center",
                     margin: 0,
-                    fontFamily: "poppins"
+                    fontFamily: "poppins",
                   }}
                 >
                   Vicky Hermawan
@@ -94,7 +94,7 @@ export default function App() {
                   style={{
                     textAlign: "center",
                     margin: 0,
-                    fontFamily: "poppins"
+                    fontFamily: "poppins",
                   }}
                 >
                   React Native Developer
@@ -104,8 +104,8 @@ export default function App() {
                     <a href="https://www.linkedin.com/in/vicky-hermawan-1a0174a3/">
                       <LinkedinOutlined style={{ fontSize: 20 }} />
                     </a>
-                    <a href="https://gitlab.com/vickyhrmawan">
-                      <GitlabOutlined style={{ fontSize: 20 }} />
+                    <a href="https://github.com/vickyhrmawan">
+                      <GithubOutlined style={{ fontSize: 20 }} />
                     </a>
                     <a href="https://instagram.com/vickyhrmawan">
                       <InstagramOutlined style={{ fontSize: 20 }} />
@@ -121,7 +121,7 @@ export default function App() {
                         backgroundColor: "black",
                         borderColor: "black",
                         width: "120px",
-                        fontFamily: "poppins"
+                        fontFamily: "poppins",
                       }}
                       onClick={experienceSmoothHandler}
                     >
@@ -133,7 +133,7 @@ export default function App() {
                         backgroundColor: "black",
                         borderColor: "black",
                         width: "120px",
-                        fontFamily: "poppins"
+                        fontFamily: "poppins",
                       }}
                       onClick={portfolioSmoothHandler}
                     >
@@ -155,7 +155,7 @@ export default function App() {
             <div
               style={{
                 position: "relative",
-                paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */
+                paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */,
               }}
             >
               <ReactPlayer
@@ -164,7 +164,7 @@ export default function App() {
                   top: 0,
                   left: 0,
                   paddingRight: "10%",
-                  paddingLeft: "10%"
+                  paddingLeft: "10%",
                 }}
                 url="https://youtu.be/QGMi1DgFd_A"
                 width="100%"
@@ -184,7 +184,7 @@ export default function App() {
                 <Title
                   style={{
                     textAlign: "center",
-                    fontFamily: "poppins"
+                    fontFamily: "poppins",
                   }}
                   level={2}
                 >
@@ -201,7 +201,7 @@ export default function App() {
                   style={{
                     fontWeight: "bold",
                     textAlign: "center",
-                    padding: "2%"
+                    padding: "2%",
                   }}
                 >
                   It's capability to create an app for both android and iOS is
@@ -218,7 +218,7 @@ export default function App() {
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
-                backgroundColor: "white"
+                backgroundColor: "white",
               }}
             >
               This website was made using React.JS

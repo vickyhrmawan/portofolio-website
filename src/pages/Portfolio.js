@@ -4,9 +4,6 @@ import { Layout } from "antd";
 import "antd/dist/antd.css";
 import Title from "antd/lib/typography/Title";
 
-//https://www.youtube.com/watch?v=ApnbTMhP-r8
-//
-
 export default function Portfolio() {
   return (
     <div>
@@ -15,7 +12,7 @@ export default function Portfolio() {
           style={{
             fontFamily: "poppins",
             textAlign: "center",
-            marginTop: "2%"
+            marginTop: "2%",
           }}
           level={3}
         >
@@ -27,7 +24,7 @@ export default function Portfolio() {
             style={{
               width: "20%",
               borderRadius: 10,
-              margin: "2%"
+              margin: "2%",
             }}
             alt="imdbapp"
           />
@@ -36,7 +33,7 @@ export default function Portfolio() {
             style={{
               width: "20%",
               borderRadius: 10,
-              margin: "2%"
+              margin: "2%",
             }}
             alt="ayovest"
           />
@@ -50,7 +47,7 @@ export default function Portfolio() {
           style={{
             fontFamily: "poppins",
             textAlign: "center",
-            marginTop: "2%"
+            marginTop: "2%",
           }}
           level={3}
         >
@@ -58,14 +55,14 @@ export default function Portfolio() {
         </Title>
 
         <div style={{ textAlign: "center" }}>
-          <a href="https://gitlab.com/vickyhrmawan">
+          <a href="https://github.com/vickyhrmawan">
             <img
-              src={require("../img/gitlablogo.png")}
+              src={require("../img/githublogo.png")}
               style={{
                 width: "40%",
                 borderRadius: 10,
                 margin: "1%",
-                alignSelf: "center"
+                alignSelf: "center",
               }}
               alt="gitlab"
             />
@@ -75,7 +72,7 @@ export default function Portfolio() {
           style={{
             fontFamily: "poppins",
             textAlign: "center",
-            marginTop: "5%"
+            marginTop: "5%",
           }}
           level={3}
         >
@@ -84,7 +81,7 @@ export default function Portfolio() {
         <div
           style={{
             position: "relative",
-            paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */
+            paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */,
           }}
         >
           <ReactPlayer
@@ -93,7 +90,7 @@ export default function Portfolio() {
               top: 0,
               left: 0,
               paddingRight: "10%",
-              paddingLeft: "10%"
+              paddingLeft: "10%",
             }}
             url="https://www.youtube.com/watch?v=ApnbTMhP-r8"
             width="100%"
