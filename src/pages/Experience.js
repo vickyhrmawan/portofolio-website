@@ -5,7 +5,7 @@ import Title from "antd/lib/typography/Title";
 export default function Experience() {
   return (
     <Layout>
-      <Title style={{ textAlign: "center", marginTop: "5%" }} level={2}>
+      <Title style={{ textAlign: "center", marginTop: "5%" }}>
         My Experience
       </Title>
       <div style={{ padding: "5%" }}>
@@ -17,7 +17,7 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                margin: "5%"
+                margin: "5%",
               }}
             />
           </Col>
@@ -41,7 +41,7 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%"
+                padding: "5%",
               }}
             />
           </Col>
@@ -65,7 +65,7 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%"
+                padding: "5%",
               }}
             />
           </Col>
@@ -88,7 +88,7 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%"
+                padding: "5%",
               }}
             />
           </Col>

@@ -8,18 +8,24 @@ export default function Aboutme() {
     <div>
       <Layout
         style={{
-          minHeight: "80vh"
+          minHeight: "80vh",
+          backgroundColor: "white",
         }}
       >
         <Title style={{ textAlign: "center", marginTop: "5%" }}>About Me</Title>
-        <Layout>
+        <Layout
+          style={{
+            backgroundColor: "white",
+            marginBottom: "5%",
+          }}
+        >
           <text
             style={{
               fontFamily: "poppins",
               fontWeight: "bold",
               paddingLeft: "10%",
               paddingRight: "10%",
-              textAlign: "center"
+              textAlign: "center",
             }}
           >
             A passionate learner, hard working and a travel man. I love new
@@ -32,7 +38,7 @@ export default function Aboutme() {
               fontWeight: "bold",
               textAlign: "center",
               fontSize: "20px",
-              marginTop: "5%"
+              marginTop: "5%",
             }}
           >
             Why did I choose react native?
@@ -43,7 +49,7 @@ export default function Aboutme() {
               fontWeight: "bold",
               paddingLeft: "10%",
               paddingRight: "10%",
-              textAlign: "center"
+              textAlign: "center",
             }}
           >
             For the first time, I thought I wanna create something. That's why I
@@ -60,7 +66,7 @@ export default function Aboutme() {
               fontWeight: "bold",
               textAlign: "center",
               fontSize: "20px",
-              marginTop: "5%"
+              marginTop: "5%",
             }}
           >
             Why me?
@@ -71,7 +77,7 @@ export default function Aboutme() {
               fontWeight: "bold",
               paddingLeft: "10%",
               paddingRight: "10%",
-              textAlign: "center"
+              textAlign: "center",
             }}
           >
             I strive to be better. I am eager to learn, and I also ready to take

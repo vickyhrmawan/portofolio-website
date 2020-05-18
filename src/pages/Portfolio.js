@@ -7,14 +7,13 @@ import Title from "antd/lib/typography/Title";
 export default function Portfolio() {
   return (
     <div>
-      <Layout>
+      <Layout style={{ backgroundColor: "white", marginBottom: "5%" }}>
         <Title
           style={{
             fontFamily: "poppins",
             textAlign: "center",
             marginTop: "2%",
           }}
-          level={3}
         >
           A glimpse of my project
         </Title>
@@ -26,7 +25,7 @@ export default function Portfolio() {
               borderRadius: 10,
               margin: "2%",
             }}
-            alt="imdbapp"
+            alt="ayovest home"
           />
           <img
             src={require("../img/ss2.png")}
@@ -35,12 +34,55 @@ export default function Portfolio() {
               borderRadius: 10,
               margin: "2%",
             }}
-            alt="ayovest"
+            alt="ayovest category"
+          />
+          <img
+            src={require("../img/ss3.png")}
+            style={{
+              width: "20%",
+              borderRadius: 10,
+              margin: "2%",
+            }}
+            alt="ayovest profile"
           />
         </div>
         <a href="https://www.mediafire.com/file/j1urnjdg4ck9x37/ayovest.apk/file">
           <p style={{ textAlign: "center", fontWeight: "bold" }}>
             Download Ayovest APK
+          </p>
+        </a>
+        <div style={{ textAlign: "center" }}>
+          <img
+            src={require("../img/ss4.png")}
+            style={{
+              width: "20%",
+              borderRadius: 10,
+              margin: "2%",
+            }}
+            alt="weatherapp-en"
+          />
+          <img
+            src={require("../img/ss5.png")}
+            style={{
+              width: "20%",
+              borderRadius: 10,
+              margin: "2%",
+            }}
+            alt="weatherapp-lang"
+          />
+          <img
+            src={require("../img/ss6.png")}
+            style={{
+              width: "20%",
+              borderRadius: 10,
+              margin: "2%",
+            }}
+            alt="weatherapp-zh"
+          />
+        </div>
+        <a href="http://www.mediafire.com/file/fxnabqtrkv12jh2/WeatherApp.apk/file">
+          <p style={{ textAlign: "center", fontWeight: "bold" }}>
+            Download Weather App APK
           </p>
         </a>
         <Title

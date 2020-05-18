@@ -113,7 +113,13 @@ export default function App() {
                   </Space>
                 </Layout>
 
-                <Layout style={{ marginTop: "50px", alignItems: "center" }}>
+                <Layout
+                  style={{
+                    marginTop: "50px",
+                    alignItems: "center",
+                    marginBottom: "5%",
+                  }}
+                >
                   <Space size={"large"}>
                     <Button
                       type="primary"
@@ -149,13 +155,14 @@ export default function App() {
           </div>
 
           <Layout>
-            <Title style={{ textAlign: "center", marginTop: "5%" }} level={3}>
+            <Title style={{ textAlign: "center", marginTop: "5%" }}>
               My Latest Project
             </Title>
             <div
               style={{
                 position: "relative",
                 paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */,
+                marginBottom: "5%",
               }}
             >
               <ReactPlayer
@@ -178,15 +185,19 @@ export default function App() {
           <div ref={experienceScroll}>
             <Experience />
           </div>
-          <Layout>
+          <Layout
+            style={{
+              backgroundColor: "white",
+              marginTop: "5%",
+            }}
+          >
             <Row type="flex" align="middle" style={{ minHeight: "80vh" }}>
-              <Layout>
+              <Layout style={{ backgroundColor: "white" }}>
                 <Title
                   style={{
                     textAlign: "center",
                     fontFamily: "poppins",
                   }}
-                  level={2}
                 >
                   Why React Native?
                 </Title>
@@ -221,7 +232,8 @@ export default function App() {
                 backgroundColor: "white",
               }}
             >
-              This website was made using React.JS
+              © 2020 Vicky Hermawan, All Rights Reserved. This website was made
+              using React.JS
             </Footer>
           </Layout>
         </div>
