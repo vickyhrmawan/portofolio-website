@@ -101,7 +101,7 @@ export default function App() {
                 </Title>
                 <Layout style={{ alignItems: "center", marginTop: "20px" }}>
                   <Space size={"large"}>
-                    <a href="https://www.linkedin.com/in/vicky-hermawan-1a0174a3/">
+                    <a href="https://www.linkedin.com/in/vickyhrmawan/">
                       <LinkedinOutlined style={{ fontSize: 20 }} />
                     </a>
                     <a href="https://github.com/vickyhrmawan">
