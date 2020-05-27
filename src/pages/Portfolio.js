@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import { Layout } from "antd";
 import "antd/dist/antd.css";
 import Title from "antd/lib/typography/Title";
+import "../App.css";
 
 export default function Portfolio() {
   return (
@@ -13,6 +14,8 @@ export default function Portfolio() {
             fontFamily: "poppins",
             textAlign: "center",
             marginTop: "2%",
+            marginRight: "1%",
+            marginLeft: "1%",
           }}
         >
           A glimpse of my project
@@ -46,11 +49,13 @@ export default function Portfolio() {
             alt="ayovest profile"
           />
         </div>
-        <a href="https://www.mediafire.com/file/j1urnjdg4ck9x37/ayovest.apk/file">
-          <p style={{ textAlign: "center", fontWeight: "bold" }}>
-            Download Ayovest APK
+        <div style={{ borderWidth: "2px", backgroundColor: 'rgba(0,0,0,0.2)', borderRadius: '10px', width: "15em", alignSelf: 'center', justifySelf: 'center', marginTop: "5px", marginBottom: "5px" }}>
+          <a href="https://download1082.mediafire.com/zr791xbqm2dg/j1urnjdg4ck9x37/ayovest.apk">
+            <p style={{ textAlign: "center", fontWeight: "bold", marginTop: '1em' }}>
+              Download Ayovest APK
           </p>
-        </a>
+          </a>
+        </div>
         <div style={{ textAlign: "center" }}>
           <img
             src={require("../img/ss4.png")}
@@ -80,11 +85,13 @@ export default function Portfolio() {
             alt="weatherapp-zh"
           />
         </div>
-        <a href="http://www.mediafire.com/file/fxnabqtrkv12jh2/WeatherApp.apk/file">
-          <p style={{ textAlign: "center", fontWeight: "bold" }}>
-            Download Weather App APK
+        <div style={{ borderWidth: "2px", backgroundColor: 'rgba(0,0,0,0.2)', borderRadius: '10px', width: "15em", alignSelf: 'center', justifySelf: 'center', marginTop: "5px", marginBottom: "5px" }}>
+          <a href="http://download1083.mediafire.com/soimm5ongeug/7wosms7wcyrqwlt/WeatherApp.apk">
+            <p style={{ textAlign: "center", fontWeight: "bold", marginTop: '1em' }}>
+              Download Weather App APK
           </p>
-        </a>
+          </a>
+        </div>
         <Title
           style={{
             fontFamily: "poppins",
@@ -121,22 +128,12 @@ export default function Portfolio() {
           My latest team
         </Title>
         <div
-          style={{
-            position: "relative",
-            paddingTop: "56.25%" /* Player ratio: 100 / (1280 / 720) */,
-          }}
+          className='player-wrapper'
         >
           <ReactPlayer
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              paddingRight: "10%",
-              paddingLeft: "10%",
-            }}
+            className='react-player'
             url="https://www.youtube.com/watch?v=ApnbTMhP-r8"
             width="100%"
-            height="100%"
           />
         </div>
       </Layout>

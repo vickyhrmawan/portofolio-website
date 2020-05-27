@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -34,5 +35,191 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: 150px;
+    border-radius: 10pt;
+    margin: 5%;
+  }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: 150px;
+    border-radius: 10pt;
+    margin: 5%;
+  }
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    /* width: "25%";
+    border-radius: 10;
+    margin: "5%", */
+    width: 200px;
+    border-radius: 10pt;
+    margin: 5%;
+  }
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: "25%";
+    border-radius: 10pt;
+    margin: "5%";
+  }
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: "25%";
+    border-radius: 10pt;
+    margin: "5%";
+  }
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 10em;
+    margin-left: 10em;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: "25%";
+    border-radius: 10pt;
+    margin: "5%";
+  }
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 10em;
+    margin-left: 10em;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: "25%";
+    border-radius: 10pt;
+    margin: "5%";
+  }
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+  /* styles */
+  .player-wrapper {
+    position: relative;
+    /* padding-top: 56.25% ; */
+    background-color: #61dafb;
+    margin-right: 10em;
+    margin-left: 10em;
+  }
+  .react-player {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .profile-picture {
+    width: "35%";
+    border-radius: 10pt;
+    margin: "5%";
   }
 }

@@ -1,7 +1,9 @@
 import React from "react";
-import { Layout } from "antd";
+import { Layout, Row } from "antd";
 import "antd/dist/antd.css";
 import Title from "antd/lib/typography/Title";
+
+const { Content } = Layout;
 
 export default function Aboutme() {
   return (
@@ -19,18 +21,41 @@ export default function Aboutme() {
             marginBottom: "5%",
           }}
         >
-          <text
-            style={{
-              fontFamily: "poppins",
-              fontWeight: "bold",
-              paddingLeft: "10%",
-              paddingRight: "10%",
-              textAlign: "center",
-            }}
-          >
-            A passionate learner, hard working and a travel man. I love new
-            challenges and I wont hesitate to spend my time to do it.
-          </text>
+          <Row type="flex" align="middle" style={{ minHeight: "80vh" }}>
+            <Layout style={{ backgroundColor: "white" }}>
+              <Title
+                style={{
+                  textAlign: "center",
+                  fontFamily: "poppins",
+                  fontSize: "20px",
+                }}
+                level={2}
+              >
+                Why React Native?
+                </Title>
+              <Content>
+                <div className="container">
+                  <span className="react-logo">
+                    <span className="nucleo"></span>
+                  </span>
+                </div>
+              </Content>
+              <p
+                style={{
+                  fontFamily: "poppins",
+                  fontWeight: "bold",
+                  textAlign: "left",
+                  paddingLeft: "10%",
+                  paddingRight: "10%",
+                }}
+              >
+                It's capability to create an app for both android and iOS is
+                what people are looking for. With so many support from the
+                developers and community, makes it maintainable for a long
+                term.
+                </p>
+            </Layout>
+          </Row>
           <Title
             level={2}
             style={{
@@ -38,10 +63,9 @@ export default function Aboutme() {
               fontWeight: "bold",
               textAlign: "center",
               fontSize: "20px",
-              marginTop: "5%",
             }}
           >
-            Why did I choose react native?
+            Why did I choose it?
           </Title>
           <text
             style={{
@@ -49,7 +73,7 @@ export default function Aboutme() {
               fontWeight: "bold",
               paddingLeft: "10%",
               paddingRight: "10%",
-              textAlign: "center",
+              textAlign: "left",
             }}
           >
             For the first time, I thought I wanna create something. That's why I
@@ -77,10 +101,10 @@ export default function Aboutme() {
               fontWeight: "bold",
               paddingLeft: "10%",
               paddingRight: "10%",
-              textAlign: "center",
+              textAlign: "left",
             }}
           >
-            I strive to be better. I am eager to learn, and I also ready to take
+            I strive to be better. I am eager to learn, and I am also ready to take
             risks.
           </text>
         </Layout>
