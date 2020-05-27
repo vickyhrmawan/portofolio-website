@@ -115,6 +115,7 @@ export default function App() {
                       paddingRight: "10%",
                       paddingTop: "2%",
                       textAlign: "center",
+                      fontSize: "16px"
                     }}
                   >
                     A passionate learner, hard working and tech entusiast. I love challenges and wont hesitate spending my time for it.
@@ -188,37 +189,6 @@ export default function App() {
               marginTop: "5%",
             }}
           >
-            {/* <Row type="flex" align="middle" style={{ minHeight: "80vh" }}>
-              <Layout style={{ backgroundColor: "white" }}>
-                <Title
-                  style={{
-                    textAlign: "center",
-                    fontFamily: "poppins",
-                  }}
-                >
-                  Why React Native?
-                </Title>
-                <Content>
-                  <div className="container">
-                    <span className="react-logo">
-                      <span className="nucleo"></span>
-                    </span>
-                  </div>
-                </Content>
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    textAlign: "center",
-                    padding: "2%",
-                  }}
-                >
-                  It's capability to create an app for both android and iOS is
-                  what people are looking for.With so many support from the
-                  developers and community, makes it maintainable for a long
-                  term.
-                </p>
-              </Layout>
-            </Row> */}
             <div ref={contactmeScroll}>
               <Contact />
             </div>

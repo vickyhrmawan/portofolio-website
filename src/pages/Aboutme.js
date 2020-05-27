@@ -47,6 +47,7 @@ export default function Aboutme() {
                   textAlign: "left",
                   paddingLeft: "10%",
                   paddingRight: "10%",
+                  fontSize: "16px"
                 }}
               >
                 It's capability to create an app for both android and iOS is
@@ -74,6 +75,7 @@ export default function Aboutme() {
               paddingLeft: "10%",
               paddingRight: "10%",
               textAlign: "left",
+              fontSize: "16px"
             }}
           >
             For the first time, I thought I wanna create something. That's why I
@@ -102,6 +104,7 @@ export default function Aboutme() {
               paddingLeft: "10%",
               paddingRight: "10%",
               textAlign: "left",
+              fontSize: "16px"
             }}
           >
             I strive to be better. I am eager to learn, and I am also ready to take

@@ -8,7 +8,7 @@ export default function Experience() {
       <Title style={{ textAlign: "center", marginTop: "5%" }}>
         My Experience
       </Title>
-      <div style={{ padding: "5%" }}>
+      <div style={{ padding: "3%" }}>
         <Row>
           <Col flex="100px">
             <img
@@ -17,17 +17,17 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                margin: "5%",
+                padding: "4%",
               }}
             />
           </Col>
-          <Col flex={3} style={{ padding: "5%" }}>
+          <Col flex={3} style={{ padding: "2%" }}>
             <Title level={3}>PT. Yakin Maju Sentosa</Title>
             <a href="https://www.yakinmaju.com/en">
-              <p>https://www.yakinmaju.com/en</p>
+              <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>https://www.yakinmaju.com/en</p>
             </a>
-            <p>Sales Representative</p>
-            <p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>Sales Representative</p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>
               Maintaining relationship with customer, Achieve sales target,
               Ensure the delivery and product training.
             </p>
@@ -41,17 +41,17 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%",
+                padding: "4%",
               }}
             />
           </Col>
-          <Col flex={3} style={{ padding: "5%" }}>
+          <Col flex={3} style={{ padding: "2%" }}>
             <Title level={3}>Citibank NA</Title>
             <a href="https://www.citibank.co.id/">
-              <p>https://www.citibank.co.id/</p>
+              <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>https://www.citibank.co.id/</p>
             </a>
-            <p>Universal Banker</p>
-            <p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>Universal Banker</p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>
               Explaining product knowledge to customer, Making proposal to
               company for product presentation.
             </p>
@@ -65,17 +65,17 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%",
+                padding: "4%",
               }}
             />
           </Col>
-          <Col flex={3} style={{ padding: "5%" }}>
+          <Col flex={3} style={{ padding: "2%" }}>
             <Title level={3}>PT. Coolpad Electronic Indonesia</Title>
             <a href="https://coolpad.us/">
-              <p>https://coolpad.us/</p>
+              <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>https://coolpad.us/</p>
             </a>
-            <p>HR Staff</p>
-            <p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>HR Staff</p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>
               Managing recruitment, payroll, contracts and general affair stuff.
             </p>
           </Col>
@@ -88,17 +88,17 @@ export default function Experience() {
               style={{
                 width: "200px",
                 height: "200px",
-                padding: "5%",
+                padding: "4%",
               }}
             />
           </Col>
-          <Col flex={3} style={{ padding: "5%" }}>
+          <Col flex={3} style={{ padding: "2%" }}>
             <Title level={3}>PT. Sanbe Farma</Title>
             <a href="https://www.sanbe-farma.com/">
-              <p>https://www.sanbe-farma.com/</p>
+              <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>https://www.sanbe-farma.com/</p>
             </a>
-            <p>Medical Representative</p>
-            <p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>Medical Representative</p>
+            <p style={{ fontSize: "16px", fontFamily: 'poppins' }}>
               Maintaining relationship with customer, Achieve sales target, Fill
               up report.
             </p>

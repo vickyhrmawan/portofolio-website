@@ -12,13 +12,13 @@ export default function Contact() {
           justifyContent: "center"
         }}
       >
-        <text style={{ fontFamily: "poppins", fontWeight: "bold" }}>
+        <text style={{ fontFamily: "poppins", fontWeight: "bold", fontSize: "16px" }}>
           Vicky Hermawan
         </text>
-        <text style={{ fontFamily: "poppins", fontWeight: "bold" }}>
+        <text style={{ fontFamily: "poppins", fontWeight: "bold", fontSize: "16px" }}>
           +62 81 910 630 633
         </text>
-        <text style={{ fontFamily: "poppins", fontWeight: "bold" }}>
+        <text style={{ fontFamily: "poppins", fontWeight: "bold", fontSize: "16px" }}>
           vickyhrmawan@gmail.com
         </text>
       </Layout>
